@@ -1,0 +1,200 @@
+@media only screen and (max-width: 786px) {
+  .body {
+    width: 100%;
+  }
+  p br {
+    display: none;
+  }
+  .menu_links li {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 24px 32px;
+  }
+
+  .description .info h2 {
+    font-size: 32px;
+    line-height: 38.4px;
+    text-align: center;
+    margin-top: 54px;
+    margin-bottom: 24px;
+  }
+
+  .description .info p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    width: 312px;
+    margin-bottom: 48px;
+  }
+
+  .description .visualContent {
+    order: -1;
+  }
+
+  .description .info {
+    align-items: center;
+
+    margin-top: 0;
+  }
+
+  .section2 {
+    padding: 54px 24px;
+  }
+
+  .How_It_Works {
+    gap: 0px;
+  }
+
+  .topText {
+    padding-bottom: 54px;
+    width: 312px;
+    height: 56px;
+  }
+
+  .topText h2 {
+    font-size: 36px;
+  }
+
+  .mainframe {
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    width: 312px;
+  }
+
+  .mainframe h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .mainframe p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .inputfield {
+    padding: 54px 24px;
+    gap: 32px;
+  }
+
+  .inputfield .info {
+    display: flex;
+    align-items: center;
+  }
+
+  .inputfield h4 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .inputfield p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    align-items: center;
+    width: 356px;
+    height: 54px;
+  }
+
+  .searchbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+    width: 312px;
+    height: 50px;
+    padding: 0px 24px 54px 24px;
+  }
+
+  .searchbar img {
+    display: none;
+  }
+  .searchbar input[type="text"] {
+    background: url(./images/Search.png) no-repeat scroll 13px 13px;
+    background-color: #fff;
+    margin: 0;
+    opacity: 0.4;
+  }
+
+  .section3 {
+    padding: 64px 24px;
+  }
+  .cvsubmission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 116px;
+    padding: 0px;
+  }
+
+  .uploadcv {
+    padding: 0px 24px 0px 24px;
+  }
+  .cvsubmission picture {
+    padding: 0px 24px 0px 24px;
+  }
+
+  .cvsubmission img {
+    border-radius: 24px;
+  }
+
+  .cvsubmission h4 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .cvsubmission p {
+    font-size: 14px;
+    line-height: 18px;
+    width: 312px;
+    height: 54px;
+  }
+
+  .uploadcv button {
+    align-items: flex-start;
+  }
+
+  .footer {
+    height: 460px;
+    background: #ffffff;
+    padding: 32px 24px;
+    align-items: flex-start;
+  }
+
+  .footer .menu1 {
+    flex-wrap: wrap;
+    gap: 40px;
+    line-height: 24px;
+  }
+
+  .footer .menu1 .links {
+    flex-flow: column;
+    gap: 26px;
+    align-items: flex-start;
+    margin-left: 25px;
+  }
+
+  .footer .menu1 .credits {
+    gap: 40px;
+    margin-left: 15px;
+  }
+
+  .footer .made_with_love {
+    margin-top: 35px;
+    margin-left: 15px;
+
+  }
+}

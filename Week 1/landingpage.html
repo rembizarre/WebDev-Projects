@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Opportunities</title>
     <link rel="stylesheet" href="./landingpage.css" />
+    <link rel="stylesheet" href="./media.css">
 </head>
 
 <body>
     <section class="welcome-section">
-        <header>
+        <header class="header">
             <img class="magnifier" src="./images/magnifier 1.png" alt="magnifier" />
             <p class="logo">JumysTap</p>
             <ul class="menu_links">
@@ -20,18 +21,22 @@
                 <li>How it works</li>
                 <button>Get started</button>
             </ul>
+           
         </header>
 
         <div class="description">
             <div class="info">
                 <h2>Get hired for <br> your skills, not <br> experience</h2>
-                <p>The best tool to start your career journey with. Get connected <br>
+                <p>The best tool to start your career journey with. Get connected<br>
                     with the best companies — just share your CV to get started.</p>
                 <button>How It Works?</button>
             </div>
 
             <div class="visualContent">
-                <img src="./images/image.png" alt="image" />
+                <picture>
+                    <source media="(max-width: 800px)" srcset="./images/visualContent-mobile.png">
+                    <img src="./images/image.png" alt="image">
+                </picture>
             </div>
         </div>
     </section>
@@ -46,19 +51,28 @@
 
             <div class="mainframe">
                 <div class="frame1">
-                    <img src="./images/frame1.png" />
+                    <picture>
+                        <source media="(max-width: 800px)" srcset="./images/frame1-mobile.png">
+                        <img src="./images/frame1.png" />
+                    </picture>
                     <h4>Show your best skills</h4>
                     <p>Upload your CV</p>
                 </div>
 
                 <div class="frame2">
-                    <img src="./images/frame2.png" />
+                    <picture>
+                        <source media="(max-width: 800px)" srcset="./images/frame2-mobile.png">
+                        <img src="./images/frame2.png" />
+                    </picture>
                     <h4>Search for the best match</h4>
                     <p>Lorem Ipsum Description Text</p>
                 </div>
 
                 <div class="frame3">
-                    <img src="./images/frame3.png" />
+                    <picture>
+                        <source media="(max-width: 800px)" srcset="./images/frame3-mobile.png">
+                        <img src="./images/frame3.png" />
+                    </picture>
                     <h4>Find the best opportunity</h4>
                     <p>Lorem Ipsum Description Text</p>
                 </div>
@@ -84,8 +98,11 @@
     <section class="section3">
 
         <div class="cvsubmission">
-            <img src="./images/guy.png" alt="guy" />
-
+            <picture>
+                <source media="(max-width: 800px)" srcset="./images/guy-mobile.png">
+                <img src="./images/guy.png" alt="guy" />
+            </picture>
+            
             <div class="uploadcv">
                 <h4>Upload your CV</h4>
                 <p>The best tool to start your career journey with. Get connected<br> with the best companies — just

@@ -1,426 +1,423 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kanit:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kanit:wght@500;700&display=swap");
 
 body {
-    margin: 0;
-    width: 1440px;
-    background-color: #f1f1f1;
+  margin: 0;
+  width: 100%;
+  background-color: #f1f1f1;
 }
 
 h4 {
-    margin: 0;
+  margin: 0;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .welcome-section {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 button {
-    border: none;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    background-color: #712FFF;
-    border-radius: 100px;
-    ;
-    color: #ffff;
-    font-size: 14px;
-    line-height: 18px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  background-color: #712fff;
+  border-radius: 100px;
+  color: #ffff;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 12px 80px;
-    height: 62px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px 80px;
+  height: 62px;
 }
 
 .magnifier {
-    padding: 5px;
+  padding: 5px;
 }
 
 .logo {
-    margin-right: auto;
-    font-family: Kanit, sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    color: black;
-    padding: 5px;
-    letter-spacing: 0.04em;
+  margin-right: auto;
+  font-family: Kanit, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+  padding: 5px;
+  letter-spacing: 0.04em;
 }
 
 .menu_links {
-    list-style: none;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    size: 14px;
-    color: rgb(8, 30, 52);
-    padding: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 16px;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  size: 14px;
+  color: rgb(8, 30, 52);
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
 }
 
 .menu_links button {
-    margin-right: 20px;
-    height: 38px;
-    background-color: rgba(8, 30, 52, 0.12);
-    border-radius: 100px;
-    margin: auto;
-    color: black;
+  margin-right: 20px;
+  height: 38px;
+  background-color: rgba(8, 30, 52, 0.12);
+  border-radius: 100px;
+  margin: auto;
+  color: black;
 }
 
 .description {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 80px;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: -50px;
-    /* width: 495px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -50px;
+  /* width: 495px;
     height: 366px; */
-    padding: 0px;
-    gap: 12px;
+  padding: 0px;
+  gap: 12px;
 }
 
 .info h2 {
-    font-family: 'Kanit';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 54px;
-    line-height: 64px;
-    /* display: flex;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 64px;
+  /* display: flex;
     align-items: flex-start; */
 }
 
 .info p {
-    display: flex;
-    align-items: center;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .info button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 24px;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 10px;
 }
 
 .visualContent {
-    border-radius: 32px;
+  border-radius: 32px;
 }
 
 .section2 {
-    background-color: #E1DEE7;
-    border-radius: 32px;
-    /* width: 1440px;
+  background-color: #e1dee7;
+  border-radius: 32px;
+  /* width: 1440px;
     height: 562px; */
-    padding: 100px 80px;
+  padding: 100px 80px;
 }
 
 .How_It_Works {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 86px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 86px;
 }
 
 .topText {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 
 .topText h2 {
-    margin: 0;
-    font-family: 'Kanit';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 54px;
-    line-height: 56px;
+  margin: 0;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 56px;
 }
 
 .topText p {
-    margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .mainframe {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 40px;
-    width: 1280px;
-    height: 186px;
-
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  /* width: 1280px;
+    height: 186px; */
 }
 
 .mainframe h4 {
-    margin: 0;
-    padding-top: 48px;
-    padding-bottom: 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
+  margin: 0;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .mainframe p {
-    margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .mainframe .frame1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    /* gap: 48px; */
-    width: 400px;
-    height: 186px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  /* gap: 48px; */
+  width: 400px;
+  height: 186px;
 }
 
 .mainframe .frame2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    /* gap: 48px; */
-    width: 400px;
-    height: 186px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  /* gap: 48px; */
+  width: 400px;
+  height: 186px;
 }
 
 .mainframe .frame3 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    /* gap: 48px; */
-    width: 400px;
-    height: 186px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  /* gap: 48px; */
+  width: 400px;
+  height: 186px;
 }
 
 .inputfield {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 100px 80px;
-    gap: 48px;
-    background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 80px;
+  gap: 48px;
+  background-color: #f1f1f1;
 }
 
 .inputfield h4 {
-    font-family: 'Kanit';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 54px;
-    line-height: 64px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 64px;
 }
 
 .inputfield .info p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .inputfield .info {
-    margin: 0;
-    gap: 32px;
+  margin: 0;
+  gap: 32px;
 }
 
 .searchbar {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
 }
 
 .searchbar img {
-    position: relative;
-    width: 24px;
-    height: 24px;
-    top: 13px;
-    left: 13px
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: 13px;
+  left: 13px;
 }
 
 .searchbar input[type="text"] {
-    box-sizing: border-box;
-    width: 619px;
-    height: 50px;
-    padding: 0px 0px 0px 49px;
-    margin: 0px 32px 0px -24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: none;
+  width: 619px;
+  height: 50px;
+  padding: 0px 0px 0px 49px;
+  margin: 0px 32px 0px -24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .searchbar input[type="submit"] {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    background-color: #712FFF;
-    box-sizing: border-box;
-    width: 106px;
-    height: 50px;
-    border-radius: 100px;
-    border: none;
-    color: #fff;
-    padding: 16px 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #712fff;
+  box-sizing: border-box;
+  width: 106px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  color: #fff;
+  padding: 16px 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .cvsubmission {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 64px 80px;
-    gap: 128px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 64px 80px;
+  gap: 128px;
 }
 
 .uploadcv {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
 }
 
 .uploadcv h4 {
-    font-family: 'Kanit';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 54px;
-    line-height: 56px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 56px;
 }
 
 .uploadcv p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .uploadcv button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 24px 16px 16px;
-    gap: 8px;
-    width: 114px;
-    height: 50px;
-    background: #712FFF;
-    border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px 16px 16px;
+  gap: 8px;
+  width: 114px;
+  height: 50px;
+  background: #712fff;
+  border-radius: 100px;
 }
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 32px 80px;
-    gap: 32px;
-    background-color: #fff;
-    border-radius: 32px 32px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 32px 80px;
+  gap: 32px;
+  background-color: #fff;
+  border-radius: 32px 32px 0px 0px;
 }
 
 .footer .menu1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0px;
-    gap: 190px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 180px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .footer .menu1 .links {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 16px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
 }
 
 .footer .menu1 .credits {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 16px;
-    opacity: 0.5;
-    color: #081E34;
-    color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  opacity: 0.5;
+  color: #081e34;
+  color: inherit;
 }
 
 .footer .made_with_love {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 a:link {
-    color: #081E34;
+  color: #081e34;
 }
 
 a:visited {
-    color: #081E34
+  color: #081e34;
 }
 
 a:hover {
-    color: #081E34
+  color: #081e34;
 }
 
 a:active {
-    color: #081E34
+  color: #081e34;
 }
